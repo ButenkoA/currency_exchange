@@ -32,10 +32,29 @@
             <td id="plzSell"></td>
         </tr>
     </table>
-    
-        <a href="https://github.com/ButenkoA/currency_exchange">GitHub files</a>
 
+    <button id="modalBtn">Calculator</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">X</span>
+            <select id="mySelect">
+                <option>продать</option>
+                <option>купить</option>
+            </select>
+            <input type="number" id="input-value">
+            <select id="select">
+                <option>USD</option>
+                <option>EURO</option>
+                <option>PLZ</option>
+            </select>
+            <button id="submitBtn">Посчитать</button>
+            <!-- <textarea id="result" cols="30" rows="1" fixed aria-disabled="">Сумма: </textarea> -->
+            <span id="result">Сумма:</span>
+        </div>
+    </div>
 
+    <p></p>
+    <a href="https://github.com/ButenkoA/currency_exchange">GitHub files</a>
 
     <script src="js/main.js"></script>
 </body>
