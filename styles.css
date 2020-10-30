@@ -52,7 +52,7 @@ tr:nth-child(odd) {
     width: 80%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
     .modal-content {
         margin: 60% auto;
     }
@@ -66,7 +66,7 @@ tr:nth-child(odd) {
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
     .close {
         font-size: 10px;
     }
