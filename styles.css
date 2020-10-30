@@ -66,6 +66,13 @@ tr:nth-child(odd) {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .close {
+        font-size: 10px;
+    }
+}
+
+
 #relult {
     background-color: #fff;
     border: 1px solid black;
