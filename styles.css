@@ -52,6 +52,12 @@ tr:nth-child(odd) {
     width: 80%;
 }
 
+@media screen and (max-width: 600px) {
+    .modal-content {
+        margin: 60% auto;
+    }
+}
+
 .close {
     color: #000;
     float: right;
