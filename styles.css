@@ -54,6 +54,12 @@ tr:nth-child(odd) {
 
 @media screen and (max-width: 920px) {
     .modal-content {
+        margin: 30% auto;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .modal-content {
         margin: 60% auto;
     }
 }
